@@ -15,11 +15,11 @@
 ### 2 - Ajuste o dianplan customizado em:
 ####  vi /etc/asterisk/extensions_custom.conf
 
-[custom-chanspy]
-exten => _555XXXX,1,Answer()
-same => n,Wait(1)
-same => n,ChanSpy(SIP/${EXTEN:3},q)
-same => n,Hangup()
+        [custom-chanspy]
+        exten => _555XXXX,1,Answer()
+        same => n,Wait(1)
+        same => n,ChanSpy(SIP/${EXTEN:3},q)
+        same => n,Hangup()
 
     
 ### 3 - Baixe o Projeto no servidor e ajuste as variavies de ambiente no .env:
