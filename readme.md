@@ -36,5 +36,5 @@
     cd  /diretorio/
     pm2 start app.js --name "monitor-server"
     pm2 log monitor-server 
-    caso apareça servidor rodando na porta tal esta ok
+    caso apareça servidor rodando na porta tal e conectado no asterisk esta OK
 
